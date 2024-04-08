@@ -3,7 +3,6 @@ import { Environment, Lightformer } from "@react-three/drei";
 const Lights = () => {
   return (
     <group name="lights">
-    
       <Environment resolution={256}>
         <group>
           <Lightformer
@@ -30,13 +29,12 @@ const Lights = () => {
         </group>
       </Environment>
 
-      
       <spotLight
         position={[-2, 10, 5]}
         angle={0.15}
-        penumbra={1} /
-        decay={0} 
-        intensity={Math.PI * 0.2} 
+        penumbra={1}
+        decay={0}
+        intensity={Math.PI * 0.2}
         color={"#f8f9fa"}
       />
       <spotLight

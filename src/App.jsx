@@ -1,6 +1,6 @@
 import Navbar from "./components/Navbar";
 import Hero from "./components/Hero";
-import Highlights from "./components/Highlights";
+import Highlights from "./components/Highlight";
 import Model from "./components/Model";
 import Features from "./components/Features";
 import HowItWorks from "./components/HowItWorks";
@@ -21,4 +21,4 @@ const App = () => {
     </main>
   );
 };
-export default App;
+export default Sentry.withProfiler(App);
