@@ -1,4 +1,4 @@
-Apple website clone (https://threejs-gsap-applewebsite.vercel.app/)[Live here]
+Apple website clone [Live here](https://threejs-gsap-applewebsite.vercel.app/)
 
 Built with Threejs, Gsap and React
 
